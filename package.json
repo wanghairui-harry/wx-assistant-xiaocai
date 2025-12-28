@@ -1,8 +1,16 @@
 {
   "name": "wx-assistant-xiaocai",
   "version": "1.0.0",
-  "scripts": {},
+  "description": "企业微信消息接收器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "express": "^4.19.2",
     "xml2js": "^0.6.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
